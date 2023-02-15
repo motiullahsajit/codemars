@@ -7,10 +7,10 @@ function Promo() {
         <div className='course-info-banner'>
             <h1 className='primary-color'>তুমি রেডি তো...?</h1>
             <br/>
-            <p style={{width: "65%"}}className='secondary-color'>একজন দক্ষ প্রোগ্রমার একজন দক্ষ প্রোগ্রামার হওয়ার যাত্রা শুর করতে চাইলে এই কোর্সে জয়েন করো| শিখতে গেলে যা যা লাগবে সেগুলো প্রোভাইড করব আমরা
+            <p style={{width: "65%"}}className='secondary-color'>একজন দক্ষ প্রোগ্রামার হওয়ার যাত্রা শুর করতে চাইলে এই কোর্সে জয়েন করো| শিখতে গেলে যা যা লাগবে সেগুলো প্রোভাইড করব আমরা
             তোমার শুধু লেগে থাকতে হবে, হার্ড ওয়ার্ক করতে হবে।</p>
             <br/>
-            <button className='primary-button'>Enroll Now</button>
+            <a href='https://forms.gle/yK2zvZNcAtTDkMDr9' className='primary-button'>Enroll Now</a>
         </div>
     </section>
   )

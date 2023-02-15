@@ -13,7 +13,7 @@ function Hero() {
             শূন্য থেকে শুরু করে (C) Programming এর basic শিখে, beginner level Problem-solving করে একজন দক্ষ প্রোগ্রামার হওয়ার যাত্রা শুর করতে চাইলে এই কোর্সে জয়েন করো |
             </p>
             <br />
-            <button className='primary-button'>Enroll Now</button>
+            <a href='https://forms.gle/yK2zvZNcAtTDkMDr9' className='primary-button'>Enroll Now</a>
         </div>
         <div className='right-container'>
             <img src={coverPhoto}/>
