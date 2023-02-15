@@ -20,7 +20,7 @@ function CourseOutline() {
     <section style={{display: "flex", justifyContent: "center",marginTop: "6rem"}}>
         <div className='course-outline-container'>
         <div className='course-time'>
-            <div className='course-timing d-flex justify-between'>
+            <div className='course-timing'>
                 <div className='m-b-2'>
                     <div className='d-flex  m-b-2'>
                         <div className='m-r-2'>
@@ -65,7 +65,7 @@ function CourseOutline() {
             
             <p className='price primary-color'>কোর্স ফি 500 টাকা</p>
         </div>
-        <div className='outline-text secondary-color'>
+        <div className='outline-text secondary-color' id="Course">
             <h1 className='primary-color'>এই কোর্স থেকে আপনি যা যা <br/>শিখতে পারবেন</h1>
         </div>
         <div>

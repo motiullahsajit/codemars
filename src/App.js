@@ -1,4 +1,3 @@
-import { width } from '@mui/system';
 import './App.css';
 import CourseOutline from './components/CourseOutline/CourseOutline';
 import Footer from './components/Footer/Footer';

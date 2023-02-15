@@ -1,31 +1,8 @@
-@media (min-width: 1024px) {
-    .hero-container{
-        width: 1000px;
-        display: flex;
-        padding: 2rem;
-        justify-content: space-between;
-    }
+.hero-container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
-
-@media (min-width: 1440px) {
-    .hero-container{
-        width: 1400px;
-        display: flex;
-        padding: 2rem;
-        justify-content: space-between;
-    }
-}
-
-
-@media (max-width: 400px) {
-    .hero-container{
-        display: block;
-        justify-content: space-between;
-        
-    }
-}
-
-
 
 .left-container ,.right-container{
     max-width: 650px;
@@ -43,4 +20,13 @@
 .right-container img{
     width: 100%;
     border-radius: 2rem;
+}
+
+@media (max-width: 770px) {
+    .hero-container{
+        display: block;
+    }
+    .left-container ,.right-container{
+        margin-bottom: 1.5rem;
+    }
 }

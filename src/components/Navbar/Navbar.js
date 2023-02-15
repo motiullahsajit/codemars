@@ -12,7 +12,7 @@ import ListItemText from '@mui/material/ListItemText';
 import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import { Link } from "react-scroll";
 import "./Navbar.css"
 const drawerWidth = 240;
 
@@ -65,13 +65,19 @@ function DrawerAppBar(props) {
               component="div"
               sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-              team<span style={{color: "#ff9900"}}>Codemars</span>
+              <a href='/'>team<span style={{color: "#ff9900"}}>Codemars</span></a>
             </Typography>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
               {navItems.map((item) => (
-                <Button key={item} sx={{ color: '#fff' }}>
-                  {item}
-                </Button>
+              
+                 <Link key={item} sx={{ color: '#fff' }} className="nav-link" activeClass="active"
+                 to={item}
+                 spy={true}
+                 smooth={true}
+                 offset={-70}
+                 duration={400}>{item}
+                 </Link>
+               
               ))}
             </Box>
           </Toolbar>

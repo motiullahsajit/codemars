@@ -7,6 +7,8 @@
 
 .teams{
     text-align: center;
+    width: 80%;
+    max-width: 800px;
 }
 .teams p{
     font-size: 0.8rem;
@@ -24,4 +26,19 @@
     overflow: none;
     max-height: 500px;
     margin: 1rem;
+}
+
+.team-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 770px) {
+    .team-card-container{
+       display: block;
+    }
+    .teams{
+        display: flex;
+        justify-content: center;
+    }
 }

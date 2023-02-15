@@ -1,5 +1,5 @@
 .footer-top{
-    width: 70%;
+    width: 80%;
     padding-top: 3rem;
     padding-bottom: 3rem;
     display: flex;
@@ -60,4 +60,10 @@ a{
 .footer-top-head{
     font-size: 1.5rem;
     padding: 0.8rem 0rem;
+}
+
+@media (max-width: 770px) {
+    .footer-top{
+       display: block;
+    }
 }

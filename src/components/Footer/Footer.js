@@ -7,7 +7,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <section className='secondary-color-bg'>
+    <section className='secondary-color-bg' id="Contact">
         
         <section className='d-flex justify-center'>
             <div className='footer-top'>

@@ -1,11 +1,13 @@
-@media (min-width: 1024px) {
-    .nav-container{
-        width: 1000px;
-    }
+.nav-container{
+    width: 80%;
 }
 
-@media (min-width: 1440px) {
-    .nav-container{
-        width: 1400px;
-    }
+.nav-link{
+    margin: 0rem 1rem;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: #ff9900;
+    transition: all .3s;
 }

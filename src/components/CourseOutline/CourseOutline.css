@@ -12,6 +12,8 @@
 
 .course-timing{
     font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .course-time{
@@ -33,4 +35,15 @@
 
 .outline-text h1{
     font-size: 2rem;
+}
+
+@media (max-width: 770px) {
+    .course-timing{
+        font-size: 1.2rem;
+        display: block;
+    }
+    .course-outline-container{
+        margin: 1rem;
+        width: 100%;
+    }
 }
