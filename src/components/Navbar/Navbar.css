@@ -1,0 +1,11 @@
+@media (min-width: 1024px) {
+    .nav-container{
+        width: 1000px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .nav-container{
+        width: 1400px;
+    }
+}

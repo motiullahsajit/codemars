@@ -13,9 +13,10 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import "./Navbar.css"
 const drawerWidth = 240;
 
-const navItems = ['Home','Course', 'About Us', 'Contact'];
+const navItems = ['Course', 'About Us', 'Contact'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -26,15 +27,15 @@ function DrawerAppBar(props) {
   };
 
   const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', overflow: "none" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        team<span style={{color: "#f58021"}}>Codemars</span>
+        team<span style={{color: "#ff9900"}}>Codemars</span>
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
           <ListItem key={item} disablePadding>
-            <ListItemButton sx={{ textAlign: 'center' }}>
+            <ListItemButton sx={{ textAlign: 'center'}}>
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
@@ -49,7 +50,7 @@ function DrawerAppBar(props) {
     <Box sx={{ display: 'flex' }}>
       <AppBar component="nav" style={{ background: '#333333'}}>
         <div style={{display: "flex", justifyContent : "center"}}>
-          <Toolbar style={{width: "1400px"}} >
+          <Toolbar className='nav-container' >
             <IconButton
               color="inherit"
               aria-label="open drawer"
@@ -64,7 +65,7 @@ function DrawerAppBar(props) {
               component="div"
               sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
             >
-              team<span style={{color: "#f58021"}}>Codemars</span>
+              team<span style={{color: "#ff9900"}}>Codemars</span>
             </Typography>
             <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
               {navItems.map((item) => (
