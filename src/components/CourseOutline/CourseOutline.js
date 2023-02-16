@@ -63,7 +63,7 @@ function CourseOutline() {
                 </div>
             </div>
             
-            <p className='price primary-color'>কোর্স ফি 500 টাকা</p>
+            <p className='price primary-color'>কোর্স ফি <del>1000</del> 500 টাকা on 50% discount</p>
         </div>
         <div className='outline-text secondary-color' id="Course">
             <h1 className='primary-color'>এই কোর্স থেকে আপনি যা যা <br/>শিখতে পারবেন</h1>
