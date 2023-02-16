@@ -66,4 +66,7 @@ a{
     .footer-top{
        display: block;
     }
+    .f-top-left img{
+        width: 15rem;
+    }
 }
