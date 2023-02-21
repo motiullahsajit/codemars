@@ -6,7 +6,7 @@ function Hero() {
     <section style={{display: "flex", justifyContent: "center",marginTop: "8rem"}}>
         <div className='hero-container'>
         <div className='left-container'>
-            <h1><span className='secondary-color'>Star Your<br/> Journey to Become<br/> a </span><span className='primary-color'>Programmer!</span></h1>
+            <h1><span className='secondary-color'>Start Your<br/> Journey to Become<br/> a </span><span className='primary-color'>Programmer!</span></h1>
             <br/>
             <p>
             শূন্য থেকে শুরু করে (C) Programming এর basic শিখে, beginner level Problem-solving করে একজন দক্ষ প্রোগ্রামার হওয়ার যাত্রা শুর করতে চাইলে এই কোর্সে জয়েন করো |
